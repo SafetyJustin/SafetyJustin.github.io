@@ -40,7 +40,7 @@
   footer { background:var(--navy); color:#7a9ab8; padding:40px 40px 24px; }
   .footer-inner {
     max-width:1100px; margin:0 auto;
-    display:grid; grid-template-columns:1fr 1fr 1fr; gap:32px;
+    display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:32px;
     padding-bottom:28px; border-bottom:1px solid rgba(255,255,255,0.1);
   }
   .footer-brand img { height:52px; margin-bottom:12px; }
@@ -519,14 +519,14 @@
   </div>
  </div>
 
-  <div style="max-width:1100px; margin:20px auto 0; text-align:center;">
-    <div id="mni-membership-639199082934361339"></div>
-    <script src="https://fortsmithchamber.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    new MNI.Widgets.Member("mni-membership-639199082934361339",{member:11406,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
-    </script>
-  </div>
-
+  <div style="max-width:1100px; margin:20px auto 0; text-align:center;">    <div class="footer-col">
+      <h4>Chamber Membership</h4>
+      <div id="mni-membership-639199082934361339"></div>
+      <script src="https://fortsmithchamber.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script>
+      <script type="text/javascript">
+        new MNI.Widgets.Member("mni-membership-639199082934361339",{member:11406,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
+      </script>
+    </div>
   <div class="footer-bottom">
     <span>&copy; 2025 JW Safety Consulting, LLC &mdash; All rights reserved.</span>
     <span>PRACTICAL SOLUTIONS. SAFER WORKPLACES.</span>
