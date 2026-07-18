@@ -28,7 +28,7 @@
   .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; }
   .hamburger span { width:26px; height:2px; background:var(--white); border-radius:2px; }
   footer { background:var(--navy); color:#7a9ab8; padding:40px 40px 24px; }
-  .footer-inner { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr 1fr; gap:32px; padding-bottom:28px; border-bottom:1px solid rgba(255,255,255,0.1); }
+  .footer-inner { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:32px; padding-bottom:28px; border-bottom:1px solid rgba(255,255,255,0.1); }
   .footer-brand img { height:52px; margin-bottom:12px; }
   .footer-brand p { font-size:0.82rem; color:#7a9ab8; line-height:1.7; }
   .footer-col h4 { font-family:'Barlow Condensed',sans-serif; font-size:0.8rem; letter-spacing:2px; text-transform:uppercase; color:var(--teal2); margin-bottom:12px; }
@@ -296,12 +296,14 @@
         <a href="https://safetyjw.com" style="color:#3dd6c4;">safetyjw.com</a>
       </p>
     </div>
-  </div>
- <div id="mni-membership-639199082934361339"></div>
-<script src="https://fortsmithchamber.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script>
-<script type="text/javascript">
-new MNI.Widgets.Member("mni-membership-639199082934361339",{member:11406,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
-</script>
+    <div class="footer-col">
+      <h4>Chamber Membership</h4>
+      <div id="mni-membership-639199082934361339"></div>
+      <script src="https://fortsmithchamber.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script>
+      <script type="text/javascript">
+        new MNI.Widgets.Member("mni-membership-639199082934361339",{member:11406,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
+      </script>
+    </div>
   <div class="footer-bottom">
     <span>&copy; 2025 JW Safety Consulting, LLC &mdash; All rights reserved.</span>
     <span>PRACTICAL SOLUTIONS. SAFER WORKPLACES.</span>
